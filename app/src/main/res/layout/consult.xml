@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/back2"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+
+        >
+
+        <!--Put form controls here-->
+
+        <TextView
+            style="@style/TextViewAppearance.Headline2"
+
+            android:id="@+id/TextViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="QUALITY IMPLEMENTATION"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/EditTextName"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="50dp">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_companylayout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/EditCompanyName"
+                android:layout_height="wrap_content"
+                android:hint="@string/comp_name"
+                android:inputType="textPersonName"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="50dp">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_colname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/EditRequirements"
+            android:layout_height="wrap_content"
+            android:hint="Requirements"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="50dp">
+        </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/EditTextLocation"
+            android:layout_height="wrap_content"
+            android:hint="@string/location"
+            android:inputType="textPostalAddress"
+            android:layout_width="fill_parent">
+        </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_mob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/EditTextMobile"
+            android:layout_height="wrap_content"
+            android:hint="@string/mobno"
+            android:inputType="phone"
+            android:layout_width="fill_parent">
+        </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/EditTextEmail"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:layout_width="fill_parent">
+        </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/EditTextPurpose"
+                android:layout_height="wrap_content"
+                android:hint="Area of Consulting"
+                android:inputType="text"
+                android:layout_width="fill_parent">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/ButtonSend"
+            android:layout_height="wrap_content"
+            android:text="@string/button"
+            android:onClick="sendFeedback"
+            android:layout_gravity="center"
+            android:layout_width="200dp">
+
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="NOTE:"
+            android:id="@+id/note"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="25dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="VQMS invites corporate and industries towards Quality Standards Implementation. Widely used Quality standards are : ISO 9001 QMS, EMS-14001, OHSAS-18001, ISMS-27001, Energy Mgmt-50001, Risk Mgmt-30001, CE Marketting, ISI-1341, LEAN Six Sigma, PMP, CMMi, ITIL, SAP, Oracle, .. more"
+            android:id="@+id/notesub"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:textColor="#000000"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id="@+id/send"
+                android:src="@drawable/go"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="www.vqms.co.in"
+                android:id="@+id/webadd"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#008bca"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

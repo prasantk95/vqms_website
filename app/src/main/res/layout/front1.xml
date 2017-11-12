@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/front1"
+
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:src="@drawable/im"
+        android:id="@+id/vqms_site"
+        />
+
+
+    <Button
+        android:layout_width="286dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="QUALITY CONSULTING and IMPLEMENTATION"
+        android:id="@+id/button1"
+        android:layout_weight="0.13" />
+
+    <Button
+        android:layout_width="289dp"
+
+        android:layout_height="wrap_content"
+        android:text="INTERNAL-EXTERNAL AUDIT"
+        android:id="@+id/button2"
+        android:layout_weight="0.13" />
+
+    <Button
+        android:layout_width="289dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="INSTITUTIONAL ACCREDITATION"
+        android:id="@+id/button3"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:layout_width="289dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="CORPORATE TRAINING"
+        android:id="@+id/button4"
+        android:layout_weight="0.14" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="NOTE:"
+        android:id="@+id/note"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="VQMS helps Industries and Corporate towards Quality and Management, through Consulting, Implementation and Corporate Training services. Widely used Quality standards are : ISO 9001 QMS, EMS-14001, OHSAS-18001, ISMS-27001, Energy Mgmt-50001, Risk Mgmt-30001, CE Marketting, ISI-1341, LEAN Six Sigma, PMP, CMMi, ITIL, SAP, Oracle, .. more"
+        android:id="@+id/notesub"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="5dp"
+        android:text="Contact us :"
+        android:layout_marginTop="2dp"
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Email: INFO@VQMS.co.in \t\t Phone: 8010901504"
+        android:id="@+id/textView"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000000"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/send"
+            android:src="@drawable/go"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="www.vqms.co.in"
+            android:id="@+id/webadd"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#008bca"
+            />
+    </RelativeLayout>
+</LinearLayout>

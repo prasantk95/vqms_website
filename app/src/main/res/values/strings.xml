@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">VQMS Quality Mgmt</string>
+
+
+
+
+    <string name="title">QUALITY CONSULTING AND IMPLEMENTATION</string>
+    <string name="name">Employee Name</string>
+    <string name="total">Total Employees</string>
+    <string name="comp_name">Company Name</string>
+    <string name="location">Loc-Address</string>
+    <string name="email">Email</string>
+    <string name="mobno">Mobile No.</string>
+    <string name="response">Response</string>
+    <string name="button">Submit</string>
+    <string name="departments">Department</string>
+    <string name="type">TyPe</string>
+
+
+
+    <string name="nameinvite">Name of Invitee</string>
+
+
+
+    <string name="stitle">INTERNAL-EXTERNAL AUDIT</string>
+    <string name="sname">Employee Name</string>
+    <string name="stotal">Total Employees</string>
+    <string name="scomp_name">Company Name</string>
+    <string name="slocation">Loc-Address</string>
+    <string name="semail">Email</string>
+    <string name="smobno">Mobile No.</string>
+    <string name="sdomain">Interested Domain</string>
+
+
+
+
+    <string name="ctitle">INSTITUTIONAL ACCREDITATION</string>
+    <string name="cname">Employee Name</string>
+    <string name="cdomain">School/College/Univ Name</string>
+    <string name="cmobno">Mobile No.</string>
+    <string name="cemail">Email</string>
+    <string name="clocation">Loc-Address</string>
+
+
+    <!--Other string resources also defined in this fileâ€¦ -->
+    <string name="type1">Marketing BD</string>
+    <string name="type2">HR</string>
+    <string name="type3">Operations</string>
+    <string name="type4">Tie-Up Coordinator</string>
+    <string name="typ1">2 Certificate</string>
+    <string name="typ2">3 Certificate</string>
+    <string name="typ3">5 Cerifiacate</string>
+</resources>
